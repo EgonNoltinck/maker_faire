@@ -20,6 +20,7 @@
           </ul>
         </nav>
       </header>
+      <div class="hidden empty"></div>
     </div>
       <main>
         <?php echo $content; ?>

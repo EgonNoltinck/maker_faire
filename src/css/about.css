@@ -1,0 +1,52 @@
+.about_info{
+    grid-row: 1;
+    grid-column: 2 / 6;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_info_color{
+    grid-row: 1;
+    grid-column: 7 / 26;
+    background-color: var(--BGcolorLightBlue);
+}
+
+.about_tutorial{
+    grid-row: 2;
+    grid-column: 2 / 6;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_tutorial_color{
+    grid-row: 2;
+    grid-column: 7 / 26;
+    background-color: var(--BGcolorLightGreen);
+}
+
+.about_tutorial_rotate{
+    transform: rotate(-90deg);
+}
+
+.about_promo{
+    grid-row: 3;
+    grid-column: 2 / 6;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_promo_color{
+    grid-row: 3;
+    /*normaal 7 / 10 -> navragen aan conor*/
+    grid-column: 7 / 26;
+    background-color: var(--BGcolorLightPink);
+}

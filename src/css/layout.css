@@ -7,18 +7,12 @@ html {
     font-size: 62.5%;
 }
 
-body{
-    width: 90rem;
-    margin: 0rem auto;
-}
-
 .container{
-    width: 90rem;
-    margin: 0rem auto;
+    margin: auto 16rem ;
     display: grid;
-    grid-template-columns: repeat(9, 1fr) ;
+    grid-template-columns: repeat(9, 10%) ;
     grid-template-rows: auto;
-    grid-gap: 1.25rem;
+    grid-column-gap: 1.25rem;
 }
 
 .header{
@@ -36,3 +30,9 @@ body{
     color: var(--colorBlack);
     font-size: var(--text);
 }
+
+/* navragen
+.empty {
+    grid-column: 7 / 26;
+    background-color: var(--BGcolorLightBlue);
+} */
