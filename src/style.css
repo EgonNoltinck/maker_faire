@@ -1,1 +1,6 @@
 @import './css/reset.css';
+@import './css/normalize.css';
+@import './css/layout.css';
+@import './css/index.css';
+@import './css/vars.css';
+

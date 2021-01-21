@@ -13,4 +13,13 @@ class OrdersController extends Controller {
     $orders = $this->orderDAO->selectAllOrders();
     $this->set('orders', $orders);
   }
+    public function about() {
+
+  }
+    public function shop() {
+
+  }
+    public function tutorial() {
+
+  }
 }

@@ -1,0 +1,20 @@
+:root {
+    --colorWhite: white;
+    --colorBlack: #362F3A;
+    --colorPink: #F09394;
+    --BGcolorLightBlue: #ACC8F2;
+    --BGcolorLightGreen: #D4E5D9;
+    --BGcolorLightPink: #E7BDD1;
+    --error: #ff0033;
+
+    --fontWeightThin: 200;
+    --fontWeightRegular: 400;
+    --fontWeightMedium: 500;
+    --fontWeightBold: 900;
+    
+    --maintitle: 5rem;
+    --subtitle: 3rem;
+    --text: 2.4rem;
+    --textsmall: 2rem;
+    --bigtext: 44rem;
+}

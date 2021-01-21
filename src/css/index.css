@@ -1,0 +1,74 @@
+.title_big{
+    font-size: var(--bigtext);
+    color: var(--colorPink);
+    font-weight:var(--fontWeightBold) ;
+    margin: 0rem;
+    grid-column: 1 / 4;
+    grid-row: 1;
+    padding-top: 5rem;
+}
+
+.header_img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+
+.header_red_fridge{
+    grid-row: 1;
+    grid-column: 2;
+    display: flex;
+    justify-self: center;
+    align-self: end;
+}
+
+.title_abbreviation{
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    justify-self: center;
+    align-self: end;
+    margin-left: -16.2rem;
+    margin-bottom: 6.4rem;
+}
+
+.header_sub{
+    font-size: var(--subtitle) ;
+    font-weight: var(--fontWeightRegular) ;
+    color: var(--colorBlack) ;
+}
+
+.smallText{
+    font-size: 2.1rem;
+    font-weight: var(--fontWeightThin);
+    color: var(--colorPink);
+}
+
+.header_text{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.header_buttons_flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8rem;
+}
+
+.button{
+    text-decoration: none;
+    color: var(--colorWhite);
+    background-color: var(--colorPink);
+    padding: 1rem, 2rem;
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    border-radius: .4rem;
+}
+
+.button--less{
+    background-color: var(--colorWhite);
+    border: .1rem solid var(--colorPink);
+    color: var(--colorPink);
+}

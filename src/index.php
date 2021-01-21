@@ -16,10 +16,18 @@ $routes = array(
     'controller' => 'Orders',
     'action' => 'index'
   ),
-  'detail' => array(
+  'about' => array(
     'controller' => 'Orders',
-    'action' => 'detail'
-  )
+    'action' => 'about'
+  ),
+  'shop' => array(
+    'controller' => 'Orders',
+    'action' => 'shop'
+  ),
+    'tutorial' => array(
+    'controller' => 'Orders',
+    'action' => 'tutorial'
+  ),
 );
 
 if(empty($_GET['page'])) {
