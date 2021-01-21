@@ -1,6 +1,6 @@
 .about_info{
     grid-row: 1;
-    grid-column: 2 / 6;
+    grid-column: 1 / 6;
     text-align: center;
     height: 100vh;
     display: flex;
@@ -10,13 +10,13 @@
 
 .about_info_color{
     grid-row: 1;
-    grid-column: 7 / 26;
+    grid-column: 7 / 10;
     background-color: var(--BGcolorLightBlue);
 }
 
 .about_tutorial{
     grid-row: 2;
-    grid-column: 2 / 6;
+    grid-column: 1 / 6;
     text-align: center;
     height: 100vh;
     display: flex;
@@ -26,7 +26,7 @@
 
 .about_tutorial_color{
     grid-row: 2;
-    grid-column: 7 / 26;
+    grid-column: 7 / 10;
     background-color: var(--BGcolorLightGreen);
 }
 
@@ -36,7 +36,7 @@
 
 .about_promo{
     grid-row: 3;
-    grid-column: 2 / 6;
+    grid-column: 1 / 6;
     text-align: center;
     height: 100vh;
     display: flex;
@@ -47,6 +47,57 @@
 .about_promo_color{
     grid-row: 3;
     /*normaal 7 / 10 -> navragen aan conor*/
-    grid-column: 7 / 26;
+    grid-column: 7 / 10;
     background-color: var(--BGcolorLightPink);
+}
+
+.coloredFridge{
+    width: 75%;
+}
+
+.about_info_fridge{
+    grid-row: 1;
+    grid-column: 6 / 8;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.about_tutorial_fridge{
+    grid-row: 2;
+    grid-column: 6 / 8;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.about_promo_fridge{
+    grid-row: 3;
+    grid-column: 6 / 8;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.section{
+    margin: auto 16rem;
+}
+
+.about_sideTitle{
+    transform: rotate(-90deg);
+    font-size: 44rem;
+    margin: 0rem;
+    color: var(--colorWhite);
+}
+
+.about_sideTitle--creative{
+    font-size: 24rem;
+}
+
+.about_sideTitle--you{
+    font-size: 14rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

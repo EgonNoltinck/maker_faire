@@ -8,9 +8,8 @@ html {
 }
 
 .container{
-    margin: auto 16rem ;
     display: grid;
-    grid-template-columns: repeat(9, 10%) ;
+    grid-template-columns: repeat(9, 1fr);
     grid-template-rows: auto;
     grid-column-gap: 1.25rem;
 }
