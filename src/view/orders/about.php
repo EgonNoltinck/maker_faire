@@ -19,8 +19,8 @@
         <div>
             <p>Ben jij een <br><span>creatieveling</span> <br> Maak dan samen met ons een speciale elektronisch koelkast op wielen in voorbereiding van The Maker Faire van 30 april, 1 en 2 mei.</p>
             <ul class="header_buttons_flex">
-                <a class="button" href="index.php?page=tutorial">Onze DIY Tutorial</a>
-                <a class="button" href="index.php?page=about">Meer over de faire</a>
+                <a class="button" href="index.php?page=tutorial">Koelkast op wielen?</a>
+                <a class="button button--less" href="index.php?page=shop">Koop onderdelen</a>
             </ul>
         </div>
     </div>
