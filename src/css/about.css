@@ -1,8 +1,9 @@
+
 .about_info{
     grid-row: 1;
     grid-column: 1 / 6;
     text-align: center;
-    height: 100vh;
+    height: 90.37vh;;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,17 +16,17 @@
 }
 
 .about_tutorial{
-    grid-row: 2;
+    grid-row: 1;
     grid-column: 1 / 6;
     text-align: center;
-    height: 100vh;
+    height: 90.37vh;;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .about_tutorial_color{
-    grid-row: 2;
+    grid-row: 1;
     grid-column: 7 / 10;
     background-color: var(--BGcolorLightGreen);
 }
@@ -35,17 +36,17 @@
 }
 
 .about_promo{
-    grid-row: 3;
+    grid-row: 1;
     grid-column: 1 / 6;
     text-align: center;
-    height: 100vh;
+    height: 90.37vh;;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .about_promo_color{
-    grid-row: 3;
+    grid-row: 1;
     grid-column: 7 / 10;
     background-color: var(--BGcolorLightPink);
 }
@@ -62,14 +63,14 @@
     z-index: 1;
 }
 .about_tutorial_fridge{
-    grid-row: 2;
+    grid-row: 1;
     grid-column: 6 / 8;
     display: flex;
     align-items: center;
     z-index: 1;
 }
 .about_promo_fridge{
-    grid-row: 3;
+    grid-row: 1;
     grid-column: 6 / 8;
     display: flex;
     align-items: center;
@@ -82,21 +83,39 @@
 
 .about_sideTitle{
     transform: rotate(-90deg);
-    font-size: 44rem;
+    font-size: 18rem;
     margin: 0rem;
     color: var(--colorWhite);
 }
 
 .about_sideTitle--creative{
-    font-size: 24rem;
+    font-size: 18rem;
 }
 
 .about_sideTitle--you{
-    font-size: 14rem;
+    font-size: 18rem;
 }
 
 .flex{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.containerTurt {
+  max-height: 90.37vh;
+  overflow-y: scroll;
+  scroll-snap-type: mandatory;
+  scroll-snap-type: y mandatory;
+}
+
+.class {
+    height: 90.37vh;    
+  scroll-snap-align: start;
+}
+
+.placeElement {
+  width: 70px;
+  height: 70px; 
+background-color: #aaaaaa;
 }

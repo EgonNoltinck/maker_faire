@@ -1,0 +1,9 @@
+
+.dragElement {
+display: block;
+  width: 70px;
+  height: 70px;
+}
+.dragElement.active {
+    border: 10px solid red;
+}

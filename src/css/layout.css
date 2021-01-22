@@ -15,8 +15,9 @@ html {
 }
 
 .header{
-    grid-column: 1/span 6;
+    grid-column: 3/span 5;
 }
+
 
 .header_item{
     display: flex;
@@ -28,4 +29,8 @@ html {
     text-decoration: none;
     color: var(--colorBlack);
     font-size: var(--text);
+}
+
+.main_container{
+    grid-column: 1 / 10;
 }

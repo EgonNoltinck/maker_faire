@@ -18,7 +18,7 @@
                     </div>
                     <form class="shop_form" action="" method="POST">
                         <input type="hidden" name="" value="houten plank">
-                        <input class="button add__button" type="radio" value="Toevoegen" />
+                        <input class="button add__button" type="checkbox" value="Toevoegen" checked />
                     </form>
                 </div>
             </article>
@@ -34,7 +34,7 @@
                     </div>
                     <form class="shop_form" action="" method="POST">
                         <input type="hidden" name="" value="Vijzen">
-                        <input class="button add__button" type="radio" value="Toevoegen" />
+                        <input class="button add__button" type="checkbox" value="Toevoegen" checked />
                     </form>
                 </div>
             </article>
@@ -50,7 +50,7 @@
                     </div>
                     <form class="shop_form" action="" method="POST">
                         <input type="hidden" name="" value="Wielen">
-                        <input class="button add__button" type="radio" value="Toevoegen" />
+                        <input class="button add__button" type="checkbox" value="Toevoegen" checked />
                     </form>
                 </div>
             </article>
@@ -66,7 +66,7 @@
                     </div>
                     <form class="shop_form" action="" method="POST">
                         <input type="hidden" name="" value="Motor">
-                        <input class="button add__button" type="radio" value="Toevoegen" />
+                        <input class="button add__button" type="checkbox" value="Toevoegen" checked />
                     </form>
                 </div>
             </article>
@@ -82,7 +82,7 @@
                     </div>
                     <form class="shop_form" action="" method="POST">
                         <input type="hidden" name="" value="Ontvanger">
-                        <input class="button add__button" type="radio" value="Toevoegen" />
+                        <input class="button add__button" type="checkbox" value="Toevoegen" checked/>
                     </form>
                 </div>
             </article>
@@ -98,7 +98,7 @@
                     </div>
                     <form class="shop_form" action="" method="POST">
                         <input type="hidden" name="" value="Verlengkabel">
-                        <input class="button add__button" type="radio" value="Toevoegen" />
+                        <input class="button add__button" type="checkbox" value="Toevoegen" checked/>
                     </form>
                 </div>
             </article>
