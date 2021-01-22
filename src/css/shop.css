@@ -18,7 +18,7 @@
 }
 
 .shop_item{
-    padding: 10rem 5rem;
+    padding: 3rem 5rem;
 }
 
 .shop_title{
@@ -49,4 +49,15 @@
     grid-column: 7 / 9;
     width: 50%;
     align-self: center;
+}
+
+.shop_form{
+    display: flex;
+    align-self: center;
+    margin-bottom: .5rem;
+}
+
+.item_flex{
+    display: flex;
+    justify-content: space-between;
 }

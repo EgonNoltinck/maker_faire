@@ -10,73 +10,97 @@
     <div class="shop__box">
         <div class="shop_items">
             <article class="shop_item">
-                <img class="" src="" alt="plank">
-                <h3 class="">€10</h3>
-                <p class="">Houten plank</p>
-                <form class="" action="" method="POST">
-                    <input type="hidden" name="" value="houten plank">
-                    <input class="button add__button" type="submit" value="Toevoegen" />
-                </form>
+                <img class="" src="./assets/img/plank.jpeg" alt="plank">
+                <div class="item_flex">
+                    <div>
+                        <p class="">Houten plank</p>
+                        <h3 class="">€10</h3>
+                    </div>
+                    <form class="shop_form" action="" method="POST">
+                        <input type="hidden" name="" value="houten plank">
+                        <input class="button add__button" type="radio" value="Toevoegen" />
+                    </form>
+                </div>
             </article>
         </div>
 
         <div class="shop_items">
             <article class="shop_item">
-                <img class="" src="" alt="vijzen">
-                <h3 class="">€10</h3>
-                <p class="">Vijzen</p>
-                <form class="" action="" method="POST">
-                    <input type="hidden" name="" value="Vijzen">
-                    <input class="button add__button" type="submit" value="Toevoegen" />
-                </form>
+                <img class="" src="./assets/img/plank.jpeg" alt="Vijzen">
+                <div class="item_flex">
+                    <div>
+                        <p class="">Vijzen</p>
+                        <h3 class="">€10</h3>
+                    </div>
+                    <form class="shop_form" action="" method="POST">
+                        <input type="hidden" name="" value="Vijzen">
+                        <input class="button add__button" type="radio" value="Toevoegen" />
+                    </form>
+                </div>
             </article>
         </div>
 
         <div class="shop_items">
             <article class="shop_item">
-                <img class="" src="" alt="Wielen">
-                <h3 class="">€10</h3>
-                <p class="">Wielen</p>
-                <form class="" action="" method="POST">
-                    <input type="hidden" name="" value="Wielen">
-                    <input class="button add__button" type="submit" value="Toevoegen" />
-                </form>
+                <img class="" src="./assets/img/plank.jpeg" alt="Wielen">
+                <div class="item_flex">
+                    <div>
+                        <p class="">Wielen</p>
+                        <h3 class="">€10</h3>
+                    </div>
+                    <form class="shop_form" action="" method="POST">
+                        <input type="hidden" name="" value="Wielen">
+                        <input class="button add__button" type="radio" value="Toevoegen" />
+                    </form>
+                </div>
             </article>
         </div>      
 
         <div class="shop_items">
             <article class="shop_item">
-                <img class="" src="" alt="Motor">
-                <h3 class="">€10</h3>
-                <p class="">Motor</p>
-                <form class="" action="" method="POST">
-                    <input type="hidden" name="" value="Motor">
-                    <input class="button add__button" type="submit" value="Toevoegen" />
-                </form>
+                <img class="" src="./assets/img/plank.jpeg" alt="Motor">
+                <div class="item_flex">
+                    <div>
+                        <p class="">Motor</p>
+                        <h3 class="">€10</h3>
+                    </div>
+                    <form class="shop_form" action="" method="POST">
+                        <input type="hidden" name="" value="Motor">
+                        <input class="button add__button" type="radio" value="Toevoegen" />
+                    </form>
+                </div>
             </article>
         </div>
 
         <div class="shop_items">
             <article class="shop_item">
-                <img class="" src="" alt="Ontvanger">
-                <h3 class="">€10</h3>
-                <p class="">Ontvanger</p>
-                <form class="" action="" method="POST">
-                    <input type="hidden" name="" value="Ontvanger">
-                    <input class="button add__button" type="submit" value="Toevoegen" />
-                </form>
+                <img class="" src="./assets/img/plank.jpeg" alt="Ontvanger">
+                <div class="item_flex">
+                    <div>
+                        <p class="">Ontvanger</p>
+                        <h3 class="">€10</h3>
+                    </div>
+                    <form class="shop_form" action="" method="POST">
+                        <input type="hidden" name="" value="Ontvanger">
+                        <input class="button add__button" type="radio" value="Toevoegen" />
+                    </form>
+                </div>
             </article>
         </div>
         
         <div class="shop_items">
             <article class="shop_item">
-                <img class="" src="" alt="verlengkabel">
-                <h3 class="">€10</h3>
-                <p class="">verlengkabel</p>
-                <form class="" action="" method="POST">
-                    <input type="hidden" name="" value="verlengkabel">
-                    <input class="button add__button" type="submit" value="Toevoegen" />
-                </form>
+                <img class="" src="./assets/img/plank.jpeg" alt="Verlengkabel">
+                <div class="item_flex">
+                    <div>
+                        <p class="">Verlengkabel</p>
+                        <h3 class="">€10</h3>
+                    </div>
+                    <form class="shop_form" action="" method="POST">
+                        <input type="hidden" name="" value="Verlengkabel">
+                        <input class="button add__button" type="radio" value="Toevoegen" />
+                    </form>
+                </div>
             </article>
         </div>
 
