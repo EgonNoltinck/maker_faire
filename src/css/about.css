@@ -46,7 +46,6 @@
 
 .about_promo_color{
     grid-row: 3;
-    /*normaal 7 / 10 -> navragen aan conor*/
     grid-column: 7 / 10;
     background-color: var(--BGcolorLightPink);
 }

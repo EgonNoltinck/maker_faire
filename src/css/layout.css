@@ -29,9 +29,3 @@ html {
     color: var(--colorBlack);
     font-size: var(--text);
 }
-
-/* navragen
-.empty {
-    grid-column: 7 / 26;
-    background-color: var(--BGcolorLightBlue);
-} */
