@@ -1,9 +1,17 @@
 p{
     font-size: 2.4rem;
+    font-family: lato;
 }
 
 h2{
     font-size: 5rem;
+    font-family: playfair-display;
+    margin-bottom: 2rem;
+}
+
+h1{
+    font-size: 15rem;
+    font-family: montserrat;
 }
 
 label{
@@ -12,4 +20,9 @@ label{
 
 input{
     font-size: 2rem;
+}
+
+.handwriting{
+    font-family: Sudestada;
+    font-size: 5rem;
 }

@@ -4,9 +4,15 @@
     grid-column: 1 / 6;
     text-align: center;
     height: 90.37vh;;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.about_info_content{
+    grid-row: 3;
+    grid-column: 1 / 5;
+    
 }
 
 .about_info_color{
@@ -37,12 +43,23 @@
 
 .about_promo{
     grid-row: 1;
-    grid-column: 1 / 6;
+    grid-column: 1 / 8;
     text-align: center;
     height: 90.37vh;;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+    z-index: 2;
+}
+
+.about_promo_content{
+    grid-row: 3;
+    grid-column: 2 / 7;
+}
+
+.about_promo_drag{
+    grid-row: 5;
+    grid-column: 2 / 4;
 }
 
 .about_promo_color{
@@ -83,17 +100,17 @@
 
 .about_sideTitle{
     transform: rotate(-90deg);
-    font-size: 18rem;
+    font-size: 34rem;
     margin: 0rem;
     color: var(--colorWhite);
 }
 
 .about_sideTitle--creative{
-    font-size: 18rem;
+    font-size: 15rem;
 }
 
 .about_sideTitle--you{
-    font-size: 18rem;
+    font-size: 15rem;
 }
 
 .flex{
@@ -103,19 +120,59 @@
 }
 
 .containerTurt {
-  max-height: 90.37vh;
-  overflow-y: scroll;
-  scroll-snap-type: mandatory;
-  scroll-snap-type: y mandatory;
+    max-height: 90.37vh;
+    overflow-y: scroll;
+    scroll-snap-type: mandatory;
+    scroll-snap-type: y mandatory;
 }
 
 .class {
     height: 90.37vh;    
-  scroll-snap-align: start;
+    scroll-snap-align: start;
 }
 
 .placeElement {
-  width: 70px;
-  height: 70px; 
-background-color: #aaaaaa;
+    width: 70px;
+    height: 70px; 
+    background-color: #aaaaaa;
+}
+
+.about_arrow{
+    grid-row: 5;
+    grid-column: 2 / 4;
+    margin-top: -2rem;
+}
+
+.place1{
+    grid-row: 4;
+    grid-column: 8;
+}
+.place2{
+    grid-row: 6;
+    grid-column: 10;
+}
+.place3{
+    grid-row: 3;
+    grid-column: 9;
+}
+.place4{ 
+    grid-column: 8;
+    grid-row: 6;
+}
+
+.drag1{
+    grid-row: 5;
+    grid-column: 3;
+}
+.drag2{
+    grid-row: 7;
+    grid-column: 6;
+}
+.drag3{
+    grid-row: 6;
+    grid-column: 5;
+}
+.drag4{
+    grid-row: 5;
+    grid-column: 6;
 }
