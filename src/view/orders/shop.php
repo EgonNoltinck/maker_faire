@@ -16,8 +16,8 @@
                         <p class="">Houten plank</p>
                         <h3 class="">€10</h3>
                     </div>
-                    <form class="shop_form" action="" method="POST">
-                        <input type="hidden" name="" value="houten plank">
+                    <form class="shop_form" action="index.php?page=shop" method="POST">
+                        <input type="hidden" name="fridge_products" value="houten plank">
                         <input class="button add__button" type="checkbox" value="Toevoegen" checked />
                     </form>
                 </div>
@@ -32,8 +32,8 @@
                         <p class="">Vijzen</p>
                         <h3 class="">€10</h3>
                     </div>
-                    <form class="shop_form" action="" method="POST">
-                        <input type="hidden" name="" value="Vijzen">
+                    <form class="shop_form" action="index.php?page=shop" method="POST">
+                        <input type="hidden" name="fridge_products" value="Vijzen">
                         <input class="button add__button" type="checkbox" value="Toevoegen" checked />
                     </form>
                 </div>
@@ -48,8 +48,8 @@
                         <p class="">Wielen</p>
                         <h3 class="">€10</h3>
                     </div>
-                    <form class="shop_form" action="" method="POST">
-                        <input type="hidden" name="" value="Wielen">
+                    <form class="shop_form" action="index.php?page=shop" method="POST">
+                        <input type="hidden" name="fridge_products" value="Wielen">
                         <input class="button add__button" type="checkbox" value="Toevoegen" checked />
                     </form>
                 </div>
@@ -64,8 +64,8 @@
                         <p class="">Motor</p>
                         <h3 class="">€10</h3>
                     </div>
-                    <form class="shop_form" action="" method="POST">
-                        <input type="hidden" name="" value="Motor">
+                    <form class="shop_form" action="index.php?page=shop" method="POST">
+                        <input type="hidden" name="fridge_products" value="Motor">
                         <input class="button add__button" type="checkbox" value="Toevoegen" checked />
                     </form>
                 </div>
@@ -80,8 +80,8 @@
                         <p class="">Ontvanger</p>
                         <h3 class="">€10</h3>
                     </div>
-                    <form class="shop_form" action="" method="POST">
-                        <input type="hidden" name="" value="Ontvanger">
+                    <form class="shop_form" action="index.php?page=shop" method="POST">
+                        <input type="hidden" name="fridge_products" value="Ontvanger">
                         <input class="button add__button" type="checkbox" value="Toevoegen" checked/>
                     </form>
                 </div>
@@ -96,15 +96,13 @@
                         <p class="">Verlengkabel</p>
                         <h3 class="">€10</h3>
                     </div>
-                    <form class="shop_form" action="" method="POST">
-                        <input type="hidden" name="" value="Verlengkabel">
+                    <form class="shop_form" action="index.php?page=shop" method="POST">
+                        <input type="hidden" name="fridge_products" value="Verlengkabel">
                         <input class="button add__button" type="checkbox" value="Toevoegen" checked/>
                     </form>
                 </div>
             </article>
         </div>
-
     </div>
-
-
+    <a class="button button--shop" href="index.php?page=payment">Betalen</a>
 </section>

@@ -61,3 +61,11 @@
     display: flex;
     justify-content: space-between;
 }
+
+.button--shop{
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    grid-column: 5 / 7;
+    margin-top: 5rem;
+}

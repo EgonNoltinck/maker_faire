@@ -25,4 +25,9 @@ class OrdersController extends Controller {
     public function tutorial2() {
 
   }
+    public function payment() {
+
+  }
 }
+
+

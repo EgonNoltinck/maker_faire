@@ -25,12 +25,16 @@ $routes = array(
     'action' => 'shop'
   ),
     'tutorial' => array(
-    'controller' => 'Orders',
-    'action' => 'tutorial'
+      'controller' => 'Orders',
+      'action' => 'tutorial'
   ),
     'tutorial2' => array(
-    'controller' => 'Orders',
-    'action' => 'tutorial2'
+      'controller' => 'Orders',
+      'action' => 'tutorial2'
+  ),
+    'payment' => array(
+      'controller' => 'Orders',
+      'action' => 'payment'
   ),
 );
 

@@ -34,3 +34,7 @@ html {
 .main_container{
     grid-column: 1 / 10;
 }
+
+.hidden{
+    display: none;
+}
