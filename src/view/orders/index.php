@@ -2,7 +2,7 @@
     <div class="header_img">    
         <h1 class="title_big">ECF</h1>
         <p class="title_abbreviation">Electronic Controlable Fridge</p>
-        <img class="header_red_fridge" src="./assets/img/smeg_red.png" alt="frigo">
+        <!-- <img class="header_red_fridge" src="./assets/img/fridge_wheels.png" alt="frigo"> -->
     </div>
 
     <div class="header_textBundle">

@@ -7,7 +7,7 @@
             </div>
             <div class="about_arrow">
                 <p class="handwriting">ontdek meer</p>
-                <img src="./assets/img/arrow.png" alt="arrow ">
+                <img class="arrow" src="./assets/img/arrow.png" alt="arrow ">
             </div>
         </div>
         <div class="flex about_info_color">
@@ -36,7 +36,7 @@
         </div>
     </section>
     <section class="container class class3">
-        <div class="about_promo">
+        <div class=" section about_promo">
             <div class="about_promo_content">
                 <h2>Nog iets voor jou...</h2>
                 <p>Upgrade deze frigo en misschien krijg je dan een uitnodiging voor maker faires 2021 editie! Dat kan je toch niet afwijzen? Of wel?</p>
@@ -45,12 +45,10 @@
             <div class="placeElement place1"></div>
             <div class="placeElement place2"></div>
             <div class="placeElement place3"></div>
-            <div class="placeElement place4"></div>
 
             <img id="image1" class="dragElement drag1" src="./assets/img/logo.png" draggable="true"/>
             <img id="image2" class="dragElement drag2" src="./assets/img/logo2.png" draggable="true"/>
             <img id="image3" class="dragElement drag3" src="./assets/img/logo3.png" draggable="true"/>
-            <img id="image3" class="dragElement drag4" src="./assets/img/logo3.png" draggable="true"/>
         </div>
 
         <div class="flex about_promo_color">
