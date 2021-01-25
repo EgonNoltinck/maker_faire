@@ -12,7 +12,7 @@
                 <fieldset>
                     <div class="field_flex">
                         <label class="label" for="fname">Naam</label>
-                        <input type="text" id="fname" name="firstname" placeholder="John Doe">
+                        <input type="text" id="fname" name="name" placeholder="John Doe">
                     </div>
                     <div class="field_flex">
                         <label class="label" for="email">Email</label>
@@ -23,7 +23,7 @@
                 <fieldset class="wrapper_adr">
                     <label class="label label_adres" for="adress"> Adres</label>
                     <div class="wrapper">
-                        <input class="adress_place" type="text" id="adress" name="adress" placeholder="Gemeente/postcode">
+                        <input class="adress_place" type="text" id="adress" name="zipcode" placeholder="postcode">
 
                         <label class="hidden" for="adress_street"> Adres</label>
                         <input class="adress_street" type="text" id="adress_street" name="adress_street" placeholder="Straat">
@@ -35,6 +35,7 @@
                         <input class="adress_bus" type="text" id="adress_bus" name="adress_bus" placeholder="Bus">
                     </div>
                 </fieldset>
+                <?php var_dump($errors) ?> 
                 <fieldset>
                     <div class="field_flex">
                         <label class='label' for="phone"> Phone</label>
