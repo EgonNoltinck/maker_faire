@@ -19,14 +19,16 @@ const clickDrag = e => {
 const clickDrop = e => {
   if (activeSrc && activeId) {
     const newDropZone = document.querySelector(`#${activeId}`);
+    const placeId = e.currentTarget.id;
     newDropZone.outerHTML = `
-        <div class="placeElement">
+        <div class="placeElement" id="${activeId}">
         </div>
     `;
 
+    console.log(e.target.outerHTML);
     e.target.outerHTML = `
         <img
-            id=${activeId}
+            id=${placeId}
             class="dragElement"
             src="${activeSrc}"
             draggable="true"
@@ -46,16 +48,17 @@ const drop = e => {
   e.preventDefault();
   const src = e.dataTransfer.getData('src');
   const id = e.dataTransfer.getData('id');
+  const placeId = e.currentTarget.id;
 
   const newDropZone = document.querySelector(`#${id}`);
   newDropZone.outerHTML = `
-    <div class="placeElement">
-    </div>
+        <div class="placeElement" id="${id}">
+        </div>
   `;
 
   e.target.outerHTML = `
     <img
-        id=${id}
+        id=${placeId}
         class="dragElement"
         src="${src}"
         draggable="true"

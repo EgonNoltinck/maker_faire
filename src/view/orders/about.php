@@ -42,13 +42,13 @@
                 <p>Upgrade deze frigo en misschien krijg je dan een uitnodiging voor maker faires 2021 editie! Dat kan je toch niet afwijzen? Of wel?</p>
             </div>
 
-            <div class="placeElement place1"></div>
-            <div class="placeElement place2"></div>
-            <div class="placeElement place3"></div>
+            <div class="placeElement" id="place1"></div>
+            <div class="placeElement" id="place2"></div>
+            <div class="placeElement" id="place3"></div>
 
-            <img id="image1" class="dragElement drag1" src="./assets/img/logo.png" draggable="true"/>
-            <img id="image2" class="dragElement drag2" src="./assets/img/logo2.png" draggable="true"/>
-            <img id="image3" class="dragElement drag3" src="./assets/img/logo3.png" draggable="true"/>
+            <img id="place4" class="dragElement drag1" src="./assets/img/logo.png" draggable="true"/>
+            <img id="place5" class="dragElement drag2" src="./assets/img/logo2.png" draggable="true"/>
+            <img id="place6" class="dragElement drag3" src="./assets/img/logo3.png" draggable="true"/>
         </div>
 
         <div class="flex about_promo_color">

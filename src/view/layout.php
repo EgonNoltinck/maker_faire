@@ -8,7 +8,7 @@
 <style>@import url("https://use.typekit.net/sgn7opp.css");</style>
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css" integrity="sha512-8M8By+q+SldLyFJbybaHoAPD6g07xyOcscIOQEypDzBS+sTde5d6mlK2ANIZPnSyxZUqJfCNuaIvjBUi8/RS0w==" crossorigin="anonymous" /> -->
 
-    <title>Makerfaire - <?php echo $title; ?></title>
+    <title>Makerfaire</title>
     <?php echo $css;?>
   </head>
   <body>
