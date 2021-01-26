@@ -11,10 +11,10 @@
             <p class="smallText">Mini faire, bigger ideas</p>
         </div>
         <div class="header_buttons">
-            <ul class="header_buttons_flex">
+            <div class="header_buttons_flex">
                 <a class="button" href="index.php?page=tutorial">Onze DIY Tutorial</a>
                 <a class="button button--less" href="index.php?page=about">Meer over de faire</a>
-            </ul>
+            </div>
         </div>
     </div>
 

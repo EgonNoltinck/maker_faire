@@ -17,6 +17,11 @@
   font-size: 15rem;
 }
 
+.index_fridge_tut{
+   width: 50%;
+   margin: auto;
+}
+
 .color-tut{
   grid-column: 8 / 10;
 }

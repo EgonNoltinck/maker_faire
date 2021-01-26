@@ -1,5 +1,9 @@
 <div class="containerTurt">
     <section class=" container container_tut class class1">
+        <img class="position position--1" src="./assets/img/SVG/snowflakes.svg" alt="snowflake">
+
+        <img class="position bolts" src="./assets/img/SVG/bolts.svg" alt="bolts">
+
         <h2 class="hidden">Stap 1</h2>
         <div class="tutorial_content">
             <p class="tutorial_text ">Pak je platform en nagel 4 planken van 4cm hoog en 0,5cm breed aan de onderkant. vijs daarna in elke hoek een versterkingshoek toe. </p>
@@ -14,6 +18,10 @@
     </section>
 
     <section class="container container_tut class class2">
+        <img class="position position--2" src="./assets/img/SVG/snowflakes.svg" alt="snowflake">
+        <img class="position bolts2" src="./assets/img/SVG/bolts.svg" alt="bolts">
+
+
         <h2 class="hidden">Stap 2</h2>
         <div class="tutorial_content alone">
             <p class="tutorial_text tutorial_text--alone">Pak de motoren en steek ze door de gaten van binnenuit af. Vijs deze vast (meet op voorhand af waar de gaten zitten) en lijm het vast voor extra stevigheid</p>
@@ -60,6 +68,7 @@
         <h2 class="hidden">Stap 7</h2>
         <div class="tutorial_content alone">
             <p class="tutorial_text tutorial_text--alone">En klaar! Zet je frigo maar het platform en connecteer je controller met het platform! Veel plezier!</p>
+            <img class="index_fridge_tut" src="./assets/img/SVG/index_fridge.svg" alt="part9">
         </div>
         <p class="color color-tut"></p>
         <h1 class="about_sideTitle about_sideTitle-tut">STAP6</h1>

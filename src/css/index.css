@@ -78,3 +78,87 @@
     border: .1rem solid var(--colorPink);
     color: var(--colorPink);
 }
+
+@media (max-width: 1390px){
+
+    .header_red_fridge{
+        width: 70%;
+    }
+}
+
+@media (max-width: 1250px){
+    .header_red_fridge{
+        width: 87%;
+    }
+}
+
+@media (max-width: 1025px){
+    .title_big{
+        font-size: 35rem;
+    }
+
+    .header_nav{
+        display: none;
+    }
+}
+
+@media (min-width: 1025px){
+    .mobile_nav{
+        display: none;
+    }
+    .main_container {
+        margin-left: inherit;
+    }
+}
+@media (max-width: 834px){
+    .title_big{
+        font-size: 23rem;
+    }
+
+}
+@media (max-width: 575px){
+    .title_big{
+        font-size: 19rem;
+    }
+    .header_red_fridge{
+        grid-row: 2;
+        margin: inherit;
+        margin-left: 3rem;
+        margin-top: 3rem;
+    }
+
+    .title_big{
+        font-size: 16rem;
+    }
+
+
+    .title_abbreviation{
+        font-size: 1.8rem;
+        margin: 0rem auto;
+        text-align: center;
+        grid-column: 1 / 4;
+    }
+
+    .header_buttons_flex{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .button{
+        margin-bottom: 2rem;
+    }
+
+
+}
+
+@media (max-width: 425px){
+
+    .title_big{
+        font-size: 16rem;
+    }
+
+}
+@media (max-width: 374px){
+
+} 

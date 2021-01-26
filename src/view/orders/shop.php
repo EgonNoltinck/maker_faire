@@ -1,4 +1,6 @@
 <section class="container">
+    <img class="position position_snowflake_shop" src="./assets/img/SVG/snowflakes.svg" alt="snowflake">
+    <img class="position position_snowflake_shop2" src="./assets/img/SVG/snowflakes.svg" alt="snowflake">
     <div class="header_shop section">
         <div>
         <h2 class="header_shop_title">Stel je bouwpakket samen</h2>
