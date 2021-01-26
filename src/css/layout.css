@@ -48,7 +48,8 @@ html {
     width: 100%;
     bottom: 0;
     padding: 2rem 0rem;
-    box-shadow: 0rem -0.5rem 1rem rgb(0 0 0 / 16%);
+    box-shadow: 0rem -0.9rem 1rem rgb(0 0 0 / 16%);
+    z-index: 2;
 }
 
 .mobile_nav_item{

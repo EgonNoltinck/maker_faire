@@ -64,11 +64,11 @@
 
 .header_shop{
     grid-row: 1;
-    grid-column: 2 / 9;
+    grid-column: 1 / 10;
     height: 55vh;
     display: flex;
     align-items: center;
-    margin: 4rem 0rem;
+    margin: 4rem 3rem;
 }
 
 .button_flex{
@@ -108,9 +108,15 @@
     }
 
     .fridge{
-        width: 62%;
+        width: 43%;
         margin-left: 6rem;
         margin-top: 4rem;
     }
     
+}
+
+@media (max-width: 425px){
+    .fridge{
+            width: 69%;
+    }
 }
