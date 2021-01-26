@@ -1,6 +1,5 @@
 <section class="container container_shop">
-    <img class="position position_snowflake_shop" src="./assets/img/SVG/snowflakes.svg" alt="snowflake">
-    <img class="position position_snowflake_shop2" src="./assets/img/SVG/snowflakes.svg" alt="snowflake">
+
     <div class="header_shop section">
         <div class="header_shop_content">
             <h2 class="header_shop_title">Stel je bouwpakket samen</h2>
@@ -18,10 +17,10 @@
                 <div class="shop_items">
                     <article class="shop_item">
                         <h3 class="hidden">shop item</h3>
-                        <p class=""><?php echo $item['price']; ?></p>
-                        <img class="img_shop_item" src="<?php echo $item['image']; ?>" alt="<?php echo $item['name']; ?>">
+                        <p class="">€10</p>
+                        <img class="img_shop_item" src="./assets/img/SVG/PLANK.svg" alt="plank">
                         <div class="item_flex">
-                            <p class=""><?php echo $item['name']; ?></p>
+                            <p class="">Houten plank</p>
                             <input class="button add__button" type="checkbox" name="plank" value="plank" checked/>
                         </div>
                     </article>
@@ -111,8 +110,6 @@
                     </article>
                 </div>
             </div>  
-
-
             <div class="button_flex">
                 <input class="button button--shop" type="submit" value="Betalen">
             </div>

@@ -1,18 +1,21 @@
 <?php
 
 require_once __DIR__ . '/Controller.php';
-require_once __DIR__ . '/../dao/OrderDAO.php';
+require_once __DIR__ . '/../dao/OrdersDAO.php';
 require_once __DIR__ . '/../dao/UserDAO.php';
 
+
 class OrdersController extends Controller {
+private $ordersDAO;
 
   function __construct() {
-    $this->orderDAO = new OrderDAO();
+    $this->ordersDAO = new OrdersDAO();
     $this->userDAO = new UserDAO();
+
   }
 
   public function index() {
-    $orders = $this->orderDAO->selectAllOrders();
+    $orders = $this->ordersDAO->selectAllOrders();
     $this->set('orders', $orders);
   }
 
@@ -21,11 +24,6 @@ class OrdersController extends Controller {
   }
 
   public function shop() {
-
-    // $items = $this->OrderDAO->selectAllFromItems();
-    // $this->set('items', $items);
-
-
 
     if (!empty($_POST)) {
       $_SESSION['shoppingCart'] = $_POST;
@@ -81,7 +79,7 @@ class OrdersController extends Controller {
        
 
           $order["userId"] = $userId;
-          $this->orderDAO->addOrder($order);
+          $this->ordersDAO->addOrder($order);
         }
       
       }
