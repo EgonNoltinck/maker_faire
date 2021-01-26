@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container_about">
     <section class="payment_header_container">
         <div class="title_rotate">
             <h1 class="title_big_payment">ECF</h1>

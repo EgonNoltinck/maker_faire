@@ -1,3 +1,4 @@
+
 .payment_header_container{
     grid-column: 1 / 5;
     font-size: 18rem;
@@ -13,7 +14,7 @@
 
 .title_big_payment{
     margin: 0rem;
-
+    font-size: 34rem;
 }
 
 .header_sub_payment{

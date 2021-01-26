@@ -1,6 +1,6 @@
 .title_big{
     font-size: var(--bigtext);
-    color: var(--colorPink);
+    color: var(--BGcolorLightBlue);
     font-weight:var(--fontWeightBold) ;
     margin: 0rem;
     grid-column: 1 / 4;
@@ -21,6 +21,9 @@
     display: flex;
     justify-self: center;
     align-self: end;
+    margin-left: 14rem;
+    margin-top: 14rem;
+    width: 55%;
 }
 
 .title_abbreviation{

@@ -5,115 +5,110 @@
         <p>We hebben een standaard pakket voor u klaar gezet. Heb je het materiaal al? Klik het gerust af want niemand wilt teveel materiaal hebben.</p>
         </div>
     </div>
-    <img class="fridge" src="./assets/img/smeg_blue.png" alt="fridge">
+    <img class="fridge" src="./assets/img/SVG/part_fridge.svg" alt="part_fridge">
     <h2 class=shop_title>Je benodigdheden</h2>
     <div class="shop__box">
         <form action="index.php?page=shop" method="POST">
-            <div class="shop_items">
-                <article class="shop_item">
-                    <img class="" src="./assets/img/plank.jpeg" alt="plank">
-                    <div class="item_flex">
-                        <div>
+            <div class="form_box_shop">
+                <div class="shop_items">
+                    <article class="shop_item">
+                        <h3 class="hidden">shop item</h3>
+                        <p class="">€10</p>
+                        <img class="img_shop_item" src="./assets/img/SVG/PLANK.svg" alt="plank">
+                        <div class="item_flex">
                             <p class="">Houten plank</p>
-                            <h3 class="">€10</h3>
+                            <input class="button add__button" type="checkbox" name="plank" value="plank" checked/>
                         </div>
-                        <input class="button add__button" type="checkbox" name="plank" value="plank" checked/>
-                    </div>
-                </article>
-            </div>
+                    </article>
+                </div>
 
-            <div class="shop_items">
-                <article class="shop_item">
-                    <img class="" src="./assets/img/plank.jpeg" alt="vijzen">
-                    <div class="item_flex">
-                        <div>
+                <div class="shop_items">
+                    <article class="shop_item">
+                        <h3 class="hidden">shop item</h3>
+                        <p class="">€10</p>
+                        <img class="img_shop_item" src="./assets/img/SVG/VIJZEN.svg" alt="vijzen">
+                        <div class="item_flex">
                             <p class="">Vijzen</p>
-                            <h3 class="">€10</h3>
+                            <input class="button add__button" type="checkbox" name="vijzen" value="vijzen" checked/>
                         </div>
-                        <input class="button add__button" type="checkbox" name="vijzen" value="vijzen" checked/>
-                    </div>
-                </article>
-            </div>
+                    </article>
+                </div>
 
-            <div class="shop_items">
-                <article class="shop_item">
-                    <img class="" src="./assets/img/plank.jpeg" alt="wielen">
-                    <div class="item_flex">
-                        <div>
+                <div class="shop_items">
+                    <article class="shop_item">
+                        <h3 class="hidden">shop item</h3>
+                        <p class="">€10</p>
+                        <img class="img_shop_item" src="./assets/img/SVG/WIELEN.svg" alt="wielen">
+                        <div class="item_flex">
                             <p class="">Wielen</p>
-                            <h3 class="">€10</h3>
+                            <input class="button add__button" type="checkbox" name="wielen" value="wielen" checked/>
                         </div>
-                        <input class="button add__button" type="checkbox" name="wielen" value="wielen" checked/>
-                    </div>
-                </article>
-            </div>      
+                    </article>
+                </div>      
 
-            <div class="shop_items">
-                <article class="shop_item">
-                    <img class="" src="./assets/img/plank.jpeg" alt="motor">
-                    <div class="item_flex">
-                        <div>
+                <div class="shop_items">
+                    <article class="shop_item">
+                        <h3 class="hidden">shop item</h3>
+                        <p class="">€10</p>
+                        <img class="img_shop_item" src="./assets/img/SVG/SERVO_MOTOR.svg" alt="motor">
+                        <div class="item_flex">
                             <p class="">Motor</p>
-                            <h3 class="">€10</h3>
+                            <input class="button add__button" type="checkbox" name="motor" value="motor" checked/>
                         </div>
-                        <input class="button add__button" type="checkbox" name="motor" value="motor" checked/>
-                    </div>
-                </article>
-            </div>
+                    </article>
+                </div>
 
-            <div class="shop_items">
-                <article class="shop_item">
-                    <img class="" src="./assets/img/plank.jpeg" alt="motor controller">
-                    <div class="item_flex">
-                        <div>
+                <div class="shop_items">
+                    <article class="shop_item">
+                        <h3 class="hidden">shop item</h3>
+                        <p class="">€10</p>
+                        <img class="img_shop_item" src="./assets/img/SVG/MOTOR_CONTROLLER.SVG" alt="motor controller">
+                        <div class="item_flex">
                             <p class="">motor controller</p>
-                            <h3 class="">€10</h3>
+                            <input class="button add__button" type="checkbox" name="controller" value="controller" checked/>
                         </div>
-                        <input class="button add__button" type="checkbox" name="controller" value="controller" checked/>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="shop_items">
-                <article class="shop_item">
-                    <img class="" src="./assets/img/plank.jpeg" alt="flysky">
-                    <div class="item_flex">
-                        <div>
+                    </article>
+                </div>
+                
+                <div class="shop_items">
+                    <article class="shop_item">
+                        <h3 class="hidden">shop item</h3>
+                        <p class="">€10</p>
+                        <img class="img_shop_item" src="./assets/img/SVG/FLYSKY.svg" alt="flysky">
+                        <div class="item_flex">
                             <p class="">flysky</p>
-                            <h3 class="">€10</h3>
+                            <input class="button add__button" type="checkbox" name="flysky" value="flysky" checked/>
                         </div>
-                        <input class="button add__button" type="checkbox" name="flysky" value="flysky" checked/>
-                    </div>
-                </article>
-            </div>
+                    </article>
+                </div>
 
-            <div class="shop_items">
-                <article class="shop_item">
-                    <img class="" src="./assets/img/plank.jpeg" alt="wire">
-                    <div class="item_flex">
-                        <div>
+                <div class="shop_items">
+                    <article class="shop_item">
+                        <h3 class="hidden">shop item</h3>
+                        <p class="">€10</p>
+                        <img class="img_shop_item" src="./assets/img/SVG/WIRES.svg" alt="wire">
+                        <div class="item_flex">
                             <p class="">wire</p>
-                            <h3 class="">€10</h3>
+                            <input class="button add__button" type="checkbox" name="wire" value="wire" checked/>
                         </div>
-                        <input class="button add__button" type="checkbox" name="wire" value="wire" checked/>
-                    </div>
-                </article>
-            </div>
+                    </article>
+                </div>
 
-             <div class="shop_items">
-                <article class="shop_item">
-                    <img class="" src="./assets/img/plank.jpeg" alt="versterkingshoek">
-                    <div class="item_flex">
-                        <div>
+                <div class="shop_items">
+                    <article class="shop_item">
+                        <h3 class="hidden">shop item</h3>
+                        <p class="">€10</p>
+                        <img class="img_shop_item" src="./assets/img/SVG/HOEK.svg" alt="versterkingshoek">
+                        <div class="item_flex">
                             <p class="">wire</p>
-                            <h3 class="">€10</h3>
+                            <input class="button add__button" type="checkbox" name="versterkingshoek" value="versterkingshoek" checked/>
                         </div>
-                        <input class="button add__button" type="checkbox" name="versterkingshoek" value="versterkingshoek" checked/>
-                    </div>
-                </article>
+                    </article>
+                </div>
+            </div>  
+            <div class="button_flex">
+                <input class="button button--shop" type="submit" value="Betalen">
             </div>
-
-            <input class="button button--shop" type="submit" value="Betalen">
         </form>
     </div>
 </section>
