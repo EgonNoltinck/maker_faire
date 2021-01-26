@@ -1,23 +1,24 @@
 
-.dragElement {
-display: block;
-  width: 70px;
-  height: 70px;
-}
-.dragElement.active {
-    border: 10px solid red;
+.container_tut{
+    margin: initial;
 }
 
-.about_sideTitle--tutorial{
-  font-size: 20rem;
-}
 
 .tutorial_content{
-    grid-row: 1;
-    grid-column: 2 / 5;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
+  grid-row: 1;
+  grid-column: 2 / 5;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.about_sideTitle-tut{
+  grid-column: 8 / 10;
+  font-size: 15rem;
+}
+
+.color-tut{
+  grid-column: 8 / 10;
 }
 
 .tutorial_content--lower{
@@ -35,10 +36,10 @@ display: block;
   }
 
 .alone2{
-    grid-row: 1;
-    grid-column: 3 / 6;
-    display: flex;
-    flex-direction: column;
+  grid-row: 1;
+  grid-column: 3 / 6;
+  display: flex;
+  flex-direction: column;
 }
 
 

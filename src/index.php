@@ -28,10 +28,6 @@ $routes = array(
       'controller' => 'Orders',
       'action' => 'tutorial'
   ),
-    'tutorial2' => array(
-      'controller' => 'Orders',
-      'action' => 'tutorial2'
-  ),
     'payment' => array(
       'controller' => 'Orders',
       'action' => 'payment'

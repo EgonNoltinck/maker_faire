@@ -153,8 +153,18 @@
     width: 7rem;
     height: 7rem; 
     background-color: #aaaaaa;
-border-style: dashed
+    border-style: dashed
 }
+
+.dragElement {
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+.dragElement.active {
+    border: 10px solid red;
+}
+
 
 .about_arrow{
     margin: 0rem 8rem;
