@@ -52,7 +52,10 @@
                 <label class="label" for="paypal">Paypal</label>
                 <input type="radio" id="paypal" name="payment">
             </div>
-            <input type="submit" value="Betalen" class="button">
+            <div class="submit_flex">
+                <input type="submit" value="Betalen" class="button">
+            </div>
+
         </form>
     </section>
 </div>

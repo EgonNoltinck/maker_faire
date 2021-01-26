@@ -26,8 +26,7 @@
       </header>
       <main class="main_container">
         <?php echo $content; ?>
-      </main>
-      <nav class="mobile_nav">
+        <nav class="mobile_nav">
           <ul class="mobile_nav_item">
             <div class="mobile_icons">
               <li class="mobile_nav_items"><a class="header_items--link" href="index.php"><img class="nav_icon" src="./assets/img/SVG/home_icon.svg" alt="home_icon"></a></li>
@@ -43,6 +42,8 @@
             </div>
           </ul>
       </nav>
+      </main>
+
     </div>
     <?php echo $js; ?>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js" integrity="sha512-Gx/C4x1qubng2MWpJIxTPuWch9O88dhFFfpIl3WlqH0jPHtCiNdYsmJBFX0q5gIzFHmwkPzzYTlZC/Q7zgbwCw==" crossorigin="anonymous"></script> -->
