@@ -1,13 +1,14 @@
-<section class="container">
+<section class="container container_shop">
     <img class="position position_snowflake_shop" src="./assets/img/SVG/snowflakes.svg" alt="snowflake">
     <img class="position position_snowflake_shop2" src="./assets/img/SVG/snowflakes.svg" alt="snowflake">
     <div class="header_shop section">
-        <div>
-        <h2 class="header_shop_title">Stel je bouwpakket samen</h2>
-        <p>We hebben een standaard pakket voor u klaar gezet. Heb je het materiaal al? Klik het gerust af want niemand wilt teveel materiaal hebben.</p>
+        <div class="header_shop_content">
+            <h2 class="header_shop_title">Stel je bouwpakket samen</h2>
+            <p>We hebben een standaard pakket voor u klaar gezet. Heb je het materiaal al? Klik het gerust af want niemand wilt teveel materiaal hebben.</p>
         </div>
+        <img class="fridge" src="./assets/img/SVG/part_fridge.svg" alt="part_fridge">
     </div>
-    <img class="fridge" src="./assets/img/SVG/part_fridge.svg" alt="part_fridge">
+
     <h2 class=shop_title>Je benodigdheden</h2>
     <div class="shop__box">
         <form action="index.php?page=shop" method="POST">

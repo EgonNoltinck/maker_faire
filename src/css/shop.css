@@ -1,10 +1,23 @@
+.container_shop{
+    margin: initial;
+}
+
+.header_shop_flex{
+    
+}
+
+.header_shop_content{
+
+}
+
 .shop__box{
     grid-row: 3;
     grid-column: 1 / 10;
 
     background-color: var(--BGcolorLightBlue);
     padding: 12rem 0rem;
-    margin: -12rem -16rem -0rem -16rem;
+
+    border-radius: .5rem;
 }
 
 .position_snowflake_shop{
@@ -59,7 +72,7 @@
 
 .header_shop{
     grid-row: 1;
-    grid-column: 1 / 6;
+    grid-column: 2 / 9;
     height: 55vh;
     display: flex;
     align-items: center;
@@ -77,10 +90,7 @@
 }
 
 .fridge{
-    grid-row: 1;
-    grid-column: 7 / 10;
-    width: 50%;
-    align-self: center;
+    width: 28%;
 }
 
 .shop_form{
@@ -99,3 +109,45 @@
     padding: 2rem 8rem;
 }
 
+@media (max-width: 1390px){
+    .shop_items{
+
+    }
+}
+
+@media (max-width: 1250px){
+    .shop_items{
+
+    }
+}
+
+@media (max-width: 1024px){
+    .shop_items{
+
+    }
+}
+
+@media (max-width: 834px){
+    .shop_items{
+
+    }
+}
+
+@media (max-width: 575px){
+    .shop_items{
+
+    }
+
+}
+
+@media (max-width: 425px){
+    .shop_items{
+
+    }
+}
+
+@media (max-width: 374px){
+    .shop_items{
+
+    }
+} 
