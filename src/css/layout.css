@@ -23,6 +23,7 @@ html {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin: auto 16rem;
 }
 
 .header_items--link{

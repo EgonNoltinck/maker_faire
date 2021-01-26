@@ -12,7 +12,7 @@
     <?php echo $css;?>
   </head>
   <body>
-    <div class="container">
+    <div class="">
       <header class="header">
         <nav class="header_nav">
           <ul class="header_item">
