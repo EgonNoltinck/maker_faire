@@ -14,6 +14,9 @@ html {
     grid-column-gap: 1.25rem;
     margin:  auto 16rem;
 }
+.banner{
+    z-index: 3;
+}
 
 .header{
     grid-column: 3/span 5;
@@ -101,11 +104,3 @@ html {
     }
 
 }
-
-@media (min-width: 425px){
-
-
-}
-@media (min-width: 374px){
-
-} 
