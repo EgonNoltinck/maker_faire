@@ -17,7 +17,7 @@
                 <div class="shop_items">
                     <article class="shop_item">
                         <h3 class="hidden">shop item</h3>
-                        <p class="">€10</p>
+                        <p class="">€12,99</p>
                         <img class="img_shop_item" src="./assets/img/SVG/PLANK.svg" alt="plank">
                         <div class="item_flex">
                             <p class="">Houten plank</p>
@@ -29,7 +29,7 @@
                 <div class="shop_items">
                     <article class="shop_item">
                         <h3 class="hidden">shop item</h3>
-                        <p class="">€10</p>
+                        <p class="">€4,99</p>
                         <img class="img_shop_item" src="./assets/img/SVG/VIJZEN.svg" alt="vijzen">
                         <div class="item_flex">
                             <p class="">Vijzen</p>
@@ -41,7 +41,7 @@
                 <div class="shop_items">
                     <article class="shop_item">
                         <h3 class="hidden">shop item</h3>
-                        <p class="">€10</p>
+                        <p class="">€17,99</p>
                         <img class="img_shop_item" src="./assets/img/SVG/WIELEN.svg" alt="wielen">
                         <div class="item_flex">
                             <p class="">Wielen</p>
@@ -53,7 +53,7 @@
                 <div class="shop_items">
                     <article class="shop_item">
                         <h3 class="hidden">shop item</h3>
-                        <p class="">€10</p>
+                        <p class="">€56</p>
                         <img class="img_shop_item" src="./assets/img/SVG/SERVO_MOTOR.svg" alt="motor">
                         <div class="item_flex">
                             <p class="">Motor</p>
@@ -65,7 +65,7 @@
                 <div class="shop_items">
                     <article class="shop_item">
                         <h3 class="hidden">shop item</h3>
-                        <p class="">€10</p>
+                        <p class="">€66</p>
                         <img class="img_shop_item" src="./assets/img/SVG/MOTOR_CONTROLLER.svg" alt="motor controller">
                         <div class="item_flex">
                             <p class="">motor controller</p>
@@ -77,7 +77,7 @@
                 <div class="shop_items">
                     <article class="shop_item">
                         <h3 class="hidden">shop item</h3>
-                        <p class="">€10</p>
+                        <p class="">€45</p>
                         <img class="img_shop_item" src="./assets/img/SVG/FLYSKY.svg" alt="flysky">
                         <div class="item_flex">
                             <p class="">flysky</p>
@@ -89,7 +89,7 @@
                 <div class="shop_items">
                     <article class="shop_item">
                         <h3 class="hidden">shop item</h3>
-                        <p class="">€10</p>
+                        <p class="">€8,70</p>
                         <img class="img_shop_item" src="./assets/img/SVG/WIRES.svg" alt="wire">
                         <div class="item_flex">
                             <p class="">wire</p>
@@ -101,7 +101,7 @@
                 <div class="shop_items">
                     <article class="shop_item">
                         <h3 class="hidden">shop item</h3>
-                        <p class="">€10</p>
+                        <p class="">€0,69</p>
                         <img class="img_shop_item" src="./assets/img/SVG/HOEK.svg" alt="versterkingshoek">
                         <div class="item_flex">
                             <p class="">wire</p>
