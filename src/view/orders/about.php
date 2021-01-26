@@ -40,9 +40,9 @@
             <div class="placeElement" id="place2"></div>
             <div class="placeElement" id="place3"></div>
 
-            <img id="place4" class="dragElement drag1" src="./assets/img/logo.png" draggable="true"/>
-            <img id="place5" class="dragElement drag2" src="./assets/img/logo2.png" draggable="true"/>
-            <img id="place6" class="dragElement drag3" src="./assets/img/logo3.png" draggable="true"/>
+            <img id="place4" class="dragElement drag1" src="./assets/img/SVG/FLYSKY.svg" draggable="true"/>
+            <img id="place5" class="dragElement drag2" src="./assets/img/SVG/HOEK.svg" draggable="true"/>
+            <img id="place6" class="dragElement drag3" src="./assets/img/SVG/WIRES.svg" draggable="true"/>
         </div>
 
         <p class="color color_promo"></p>
