@@ -27,4 +27,12 @@ class OrderDAO extends DAO {
     $stmt->bindValue(':user_id', $data['userId']);
     $stmt->execute();
   }
+
+  //   public function selectAllFromItems()
+  // {
+  //   $sql = 'SELECT * FROM `shop_items`';
+  //   $stmt = $this->pdo->prepare($sql);
+  //   $stmt->execute();
+  //   return $stmt->fetchAll(PDO::FETCH_ASSOC);
+  // }
 }

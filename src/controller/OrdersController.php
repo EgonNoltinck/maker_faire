@@ -21,6 +21,12 @@ class OrdersController extends Controller {
   }
 
   public function shop() {
+
+    // $items = $this->OrderDAO->selectAllFromItems();
+    // $this->set('items', $items);
+
+
+
     if (!empty($_POST)) {
       $_SESSION['shoppingCart'] = $_POST;
 
@@ -29,13 +35,12 @@ class OrdersController extends Controller {
     }
   }
 
+
+
   public function tutorial() {
 
   }
-    public function tutorial2() {
 
-  }
-    
   public function payment() {
     if (!empty($_POST)) {
       $errors = array();

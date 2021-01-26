@@ -11,15 +11,17 @@
 
     <h2 class=shop_title>Je benodigdheden</h2>
     <div class="shop__box">
+        
         <form action="index.php?page=shop" method="POST">
+
             <div class="form_box_shop">
                 <div class="shop_items">
                     <article class="shop_item">
                         <h3 class="hidden">shop item</h3>
-                        <p class="">€10</p>
-                        <img class="img_shop_item" src="./assets/img/SVG/PLANK.svg" alt="plank">
+                        <p class=""><?php echo $item['price']; ?></p>
+                        <img class="img_shop_item" src="<?php echo $item['image']; ?>" alt="<?php echo $item['name']; ?>">
                         <div class="item_flex">
-                            <p class="">Houten plank</p>
+                            <p class=""><?php echo $item['name']; ?></p>
                             <input class="button add__button" type="checkbox" name="plank" value="plank" checked/>
                         </div>
                     </article>
@@ -65,7 +67,7 @@
                     <article class="shop_item">
                         <h3 class="hidden">shop item</h3>
                         <p class="">€10</p>
-                        <img class="img_shop_item" src="./assets/img/SVG/MOTOR_CONTROLLER.SVG" alt="motor controller">
+                        <img class="img_shop_item" src="./assets/img/SVG/MOTOR_CONTROLLER.svg" alt="motor controller">
                         <div class="item_flex">
                             <p class="">motor controller</p>
                             <input class="button add__button" type="checkbox" name="controller" value="controller" checked/>
@@ -109,6 +111,8 @@
                     </article>
                 </div>
             </div>  
+
+
             <div class="button_flex">
                 <input class="button button--shop" type="submit" value="Betalen">
             </div>
